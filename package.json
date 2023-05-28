@@ -1,0 +1,21 @@
+{
+  "name": "imap-email-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "node index.js",
+    "read": "node read.js",
+    "download": "node download.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eml-format": "^0.6.1",
+    "imap": "^0.8.19",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.6.4",
+    "node-imap": "^0.9.6"
+  }
+}
